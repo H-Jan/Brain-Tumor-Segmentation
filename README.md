@@ -29,7 +29,9 @@ The model used is a 3D U-Net model evolved from common CNNs particularly for 3-D
 
 ![Ground Truth Gif Here](Documents/Flair.gif)
 
-Overall the results were promising. The IOU score used to measure overlap between ground truth and predicted segmentation of glioblastoma resulted in approximately 73.80%, which is relatively high considering the constraints. 
+Overall the results were promising. In the gif, necrotic core of dead tissue at the center of the glioblastoma is shown in red, swelling around the tumor in green, and actively growing portion of the glioblastoma in yellow. The overall cancer is outlined in a red segmentation.
+
+Similarly, the IOU score used to measure overlap between ground truth and predicted segmentation of glioblastoma resulted in approximately 73.80%, which is relatively high considering the constraints. 
 
 
 ## References
